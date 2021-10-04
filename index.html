@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Stick+No+Bills:wght@200&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css" integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
+  <link rel="stylesheet" type="text/css" href="css/estilo.css">
+  <title>Conversorpeso</title>
+</head>
+<body>
+<div class="container-fluid d-flex justify-content-center">
+	<img src="assets/img/logo.jpg" style="max-width: 100%;">
+</div>
+<div class="container .img__fondo">
+  <div class="row">
+    <div class="col-md-6 offset-md-3">
+      <h1 class="display-5 text-center mb-3 mt-5">Weight Converter  Conversor de peso</h1>
+      
+      <div class="container mt-5 mb-5 body__border rounded">
+      <form>
+        <div class="form-group">
+          <input id="grInput" type="number" class="form-control form-control-lg mt-4" placeholder="Ingresa peso - Enter gr...">
+        </div>
+      </form>
+      <div id="output">
+        <div class="card card-primary mt-1 mb-2 p-1 border border-dark ">
+          <div class="card-block">
+            <h5>Centilitros:</h5>
+            <div id="clOutput"></div>
+          </div>
+        </div>
+
+        <div class="card card-success mb-3 mt-3 p-1 border border-dark">
+          <div class="card-block">
+            <h5>Libras:</h5>
+            <div id="lbsOutput"></div>
+          </div>
+        </div>
+
+        <div class="card card-danger mb-2 mb-4 p-1 border border-dark">
+          <div class="card-block">
+            <h5>kilos:</h5>
+            <div id="klOutput"></div>
+          </div>
+        </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<script src="js/main.js"></script>
+</body>
+</html>
